@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{651BA603-902E-4267-BFF7-DE237F0BC1A0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Bug_Tracking_Application</RootNamespace>
+    <AssemblyName>Bug Tracking Application</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Bugs.cs" />
+    <Compile Include="Classes\EncryptDecrypt.cs" />
+    <Compile Include="Classes\Project.cs" />
+    <Compile Include="Classes\User.cs" />
+    <Compile Include="DataAccessLayer\BugDAL.cs" />
+    <Compile Include="DataAccessLayer\LoginDAL.cs" />
+    <Compile Include="DataAccessLayer\ProjectDAL.cs" />
+    <Compile Include="DataAccessLayer\UserDAL.cs" />
+    <Compile Include="UI\BTA_AddProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\BTA_AddProject.Designer.cs">
+      <DependentUpon>BTA_AddProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\BTA_AddUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\BTA_AddUser.Designer.cs">
+      <DependentUpon>BTA_AddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\BTA_Admin_Panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\BTA_Admin_Panel.Designer.cs">
+      <DependentUpon>BTA_Admin_Panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\BTA_BugAssign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\BTA_BugAssign.Designer.cs">
+      <DependentUpon>BTA_BugAssign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\BTA_BugList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\BTA_BugList.Designer.cs">
+      <DependentUpon>BTA_BugList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\BTA_BugReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\BTA_BugReport.Designer.cs">
+      <DependentUpon>BTA_BugReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\BTA_Help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\BTA_Help.Designer.cs">
+      <DependentUpon>BTA_Help.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\BTA_HomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\BTA_HomePage.Designer.cs">
+      <DependentUpon>BTA_HomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\BTA_Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\BTA_Profile.Designer.cs">
+      <DependentUpon>BTA_Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\BTA_ProjectList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\BTA_ProjectList.Designer.cs">
+      <DependentUpon>BTA_ProjectList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\BTA_Task.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\BTA_Task.Designer.cs">
+      <DependentUpon>BTA_Task.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="UI\BTA_AddProject.resx">
+      <DependentUpon>BTA_AddProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\BTA_AddUser.resx">
+      <DependentUpon>BTA_AddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\BTA_Admin_Panel.resx">
+      <DependentUpon>BTA_Admin_Panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\BTA_BugAssign.resx">
+      <DependentUpon>BTA_BugAssign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\BTA_BugList.resx">
+      <DependentUpon>BTA_BugList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\BTA_BugReport.resx">
+      <DependentUpon>BTA_BugReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\BTA_Help.resx">
+      <DependentUpon>BTA_Help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\BTA_HomePage.resx">
+      <DependentUpon>BTA_HomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\BTA_Profile.resx">
+      <DependentUpon>BTA_Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\BTA_ProjectList.resx">
+      <DependentUpon>BTA_ProjectList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\BTA_Task.resx">
+      <DependentUpon>BTA_Task.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Closeb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blue1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blue2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bugs.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bugs2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Help.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Help2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Projects.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Projects2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\assign1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\assign2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bugreport.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bugreport2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tasks.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tasks2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Np Image.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

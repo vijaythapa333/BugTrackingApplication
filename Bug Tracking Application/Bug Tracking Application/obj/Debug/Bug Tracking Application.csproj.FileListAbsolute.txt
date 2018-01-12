@@ -1,0 +1,30 @@
+E:\The British College\Advance Software Engineering\Class\Lab\Bug Tracking Application\Bug Tracking Application\bin\Debug\Bug Tracking Application.exe.config
+E:\The British College\Advance Software Engineering\Class\Lab\Bug Tracking Application\Bug Tracking Application\bin\Debug\Bug Tracking Application.exe
+E:\The British College\Advance Software Engineering\Class\Lab\Bug Tracking Application\Bug Tracking Application\bin\Debug\Bug Tracking Application.pdb
+E:\The British College\Advance Software Engineering\Class\Lab\Bug Tracking Application\Bug Tracking Application\obj\Debug\Bug Tracking Application.csprojResolveAssemblyReference.cache
+E:\The British College\Advance Software Engineering\Class\Lab\Bug Tracking Application\Bug Tracking Application\obj\Debug\Bug_Tracking_Application.BTA_HomePage.resources
+E:\The British College\Advance Software Engineering\Class\Lab\Bug Tracking Application\Bug Tracking Application\obj\Debug\Bug_Tracking_Application.Form1.resources
+E:\The British College\Advance Software Engineering\Class\Lab\Bug Tracking Application\Bug Tracking Application\obj\Debug\Bug_Tracking_Application.Properties.Resources.resources
+E:\The British College\Advance Software Engineering\Class\Lab\Bug Tracking Application\Bug Tracking Application\obj\Debug\Bug Tracking Application.csproj.GenerateResource.Cache
+E:\The British College\Advance Software Engineering\Class\Lab\Bug Tracking Application\Bug Tracking Application\obj\Debug\Bug Tracking Application.exe
+E:\The British College\Advance Software Engineering\Class\Lab\Bug Tracking Application\Bug Tracking Application\obj\Debug\Bug Tracking Application.pdb
+C:\Users\Vijay\Documents\bug-tracking-application\Bug Tracking Application\Bug Tracking Application\bin\Debug\Bug Tracking Application.exe.config
+C:\Users\Vijay\Documents\bug-tracking-application\Bug Tracking Application\Bug Tracking Application\obj\Debug\Bug Tracking Application.exe
+C:\Users\Vijay\Documents\bug-tracking-application\Bug Tracking Application\Bug Tracking Application\obj\Debug\Bug Tracking Application.pdb
+C:\Users\Vijay\Documents\bug-tracking-application\Bug Tracking Application\Bug Tracking Application\bin\Debug\Bug Tracking Application.exe
+C:\Users\Vijay\Documents\bug-tracking-application\Bug Tracking Application\Bug Tracking Application\bin\Debug\Bug Tracking Application.pdb
+C:\Users\Vijay\Documents\bug-tracking-application\Bug Tracking Application\Bug Tracking Application\obj\Debug\Bug Tracking Application.csprojResolveAssemblyReference.cache
+C:\Users\Vijay\Documents\bug-tracking-application\Bug Tracking Application\Bug Tracking Application\obj\Debug\Bug_Tracking_Application.BTA_AddProject.resources
+C:\Users\Vijay\Documents\bug-tracking-application\Bug Tracking Application\Bug Tracking Application\obj\Debug\Bug_Tracking_Application.BTA_AddUser.resources
+C:\Users\Vijay\Documents\bug-tracking-application\Bug Tracking Application\Bug Tracking Application\obj\Debug\Bug_Tracking_Application.BTA_Admin_Panel.resources
+C:\Users\Vijay\Documents\bug-tracking-application\Bug Tracking Application\Bug Tracking Application\obj\Debug\Bug_Tracking_Application.BTA_BugReport.resources
+C:\Users\Vijay\Documents\bug-tracking-application\Bug Tracking Application\Bug Tracking Application\obj\Debug\Bug_Tracking_Application.BTA_HomePage.resources
+C:\Users\Vijay\Documents\bug-tracking-application\Bug Tracking Application\Bug Tracking Application\obj\Debug\Bug_Tracking_Application.BTA_ProjectList.resources
+C:\Users\Vijay\Documents\bug-tracking-application\Bug Tracking Application\Bug Tracking Application\obj\Debug\Bug_Tracking_Application.Form1.resources
+C:\Users\Vijay\Documents\bug-tracking-application\Bug Tracking Application\Bug Tracking Application\obj\Debug\Bug_Tracking_Application.Properties.Resources.resources
+C:\Users\Vijay\Documents\bug-tracking-application\Bug Tracking Application\Bug Tracking Application\obj\Debug\Bug Tracking Application.csproj.GenerateResource.Cache
+C:\Users\Vijay\Documents\bug-tracking-application\Bug Tracking Application\Bug Tracking Application\obj\Debug\Bug_Tracking_Application.UI.BTA_BugList.resources
+C:\Users\Vijay\Documents\bug-tracking-application\Bug Tracking Application\Bug Tracking Application\obj\Debug\Bug_Tracking_Application.UI.BTA_Profile.resources
+C:\Users\Vijay\Documents\bug-tracking-application\Bug Tracking Application\Bug Tracking Application\obj\Debug\Bug_Tracking_Application.UI.BTA_BugAssign.resources
+C:\Users\Vijay\Documents\bug-tracking-application\Bug Tracking Application\Bug Tracking Application\obj\Debug\Bug_Tracking_Application.UI.BTA_Help.resources
+C:\Users\Vijay\Documents\bug-tracking-application\Bug Tracking Application\Bug Tracking Application\obj\Debug\Bug_Tracking_Application.UI.BTA_Task.resources
